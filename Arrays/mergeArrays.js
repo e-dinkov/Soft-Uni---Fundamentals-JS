@@ -1,3 +1,4 @@
+
 function fundamentals(arr1, arr2) {
     let newArray = []
     for (let i = 0; i <= arr1.length - 1; i++) {
