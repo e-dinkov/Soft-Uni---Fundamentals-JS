@@ -30,26 +30,25 @@ function passwordVal(password) {
                 counter++;
             }
         }
-        if(counter >= 2) {return true}
-        else{
+        if (counter >= 2) { return true }
+        else {
             return false
         }
-            
+
 
     }
 
- if(checkLength(password) === false)
- {
-    console.log(`Password must be between 6 and 10 characters`)
- }
- if(checkChars(password) === false){
-    console.log(`Password must consist only of letters and digits`)
- }
-if(checkDigits(password) === false){
-    console.log(`Password must have at least 2 digits`)
-}
-if(checkDigits(password) === true && checkChars(password) === true && checkLength(password) === true){
-    console.log(`Password is valid`)
-}
+    if (checkLength(password) === false) {
+        console.log(`Password must be between 6 and 10 characters`)
+    }
+    if (checkChars(password) === false) {
+        console.log(`Password must consist only of letters and digits`)
+    }
+    if (checkDigits(password) === false) {
+        console.log(`Password must have at least 2 digits`)
+    }
+    if (checkDigits(password) === true && checkChars(password) === true && checkLength(password) === true) {
+        console.log(`Password is valid`)
+    }
 }
 passwordVal('logIn')
