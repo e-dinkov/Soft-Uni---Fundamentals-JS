@@ -4,9 +4,9 @@ function employes(employeesInfo){
 
     let person = {
         name : employee,
-        personalNum : employee.length
+        personalNumber : employee.length
     }
-    
+    console.log(`Name: ${person.name} -- Personal Number: ${person.personalNumber}`)
  }
 }
 employes([
