@@ -5,7 +5,7 @@ for(let element of input){
     let match = element.match(pattern)
     if(match){
         let {name, product, count, price} = match.groups
-        
+    
      console.log(`${name}: ${product} - ${(Number(count)*Number(price)).toFixed(2)}`)
      totalIncome += Number(count)*Number(price)
     }
