@@ -13,4 +13,4 @@ travelPoints += destination.length
 console.log(`Destinations: ${destinationsOutput.join(', ')}`)
 console.log(`Travel Points: ${travelPoints}`)
 }
-destinationMapper("Hawai=Cyprus/=Invalid/invalid==i5valid=/I5valid/=i=")	
+destinationMapper("=Hawai=/Cyprus/=Invalid/invalid==i5valid=/I5valid/=i=")	
