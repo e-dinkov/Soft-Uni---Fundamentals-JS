@@ -1,0 +1,68 @@
+nav{
+   text-align: left;
+   font-size: large;
+   font-weight: 600;
+   color: red;
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 35px;
+   padding-right: 190px;
+}
+li > a{
+    text-decoration: none;color: red;
+}
+.navBorder{
+    border: solid black;background-color: rgb(204 204 204 / 73%); 
+    display: inline-block;
+
+}
+/* General button styling */
+.btn {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5000px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Individual button colors */
+.checkout {
+    background-color: #28a745; /* Green */
+    color: white;
+}
+
+.info {
+    background-color: #007bff; /* Blue */
+    color: white;
+}
+
+.delete {
+    background-color: #dc3545; /* Red */
+    color: white;
+}
+
+/* Hover effects */
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.checkout:hover {
+    background-color: #218838;
+}
+
+.info:hover {
+    background-color: #0056b3;
+}
+
+.delete:hover {
+    background-color: #c82333;
+}
+
+/* Optional: Arrange buttons inline */
+button {
+    display: inline-block;
+}
+
